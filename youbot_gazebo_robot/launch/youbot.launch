@@ -7,7 +7,7 @@
   <arg name="init_pos_y" default="0.0"/>
   <arg name="init_pos_z" default="0.1"/>
   
-  <arg name="headless" default="false" />
+  <arg name="headless" default="true" />
 
   <!-- launch world -->
   <include file="$(find youbot_gazebo_worlds)/launch/$(arg world).launch">
